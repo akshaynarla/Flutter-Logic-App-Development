@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Interface</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            display: flex;
+            height: 100vh;
+        }
+
+        .sidebar {
+            flex: 1;
+            background-color: #f7f7f7;
+            padding: 20px;
+            border-right: 1px solid #e0e0e0;
+            overflow-y: auto;
+        }
+
+        .sidebar a {
+            display: block;
+            padding: 10px;
+            margin-bottom: 10px;
+            background-color: #00b389;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        .main-content {
+            flex: 3;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 0;
+        }
+
+        form {
+            margin-bottom: 20px;
+            padding: 20px;
+            border: 1px solid #e0e0e0;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+
+        label,
+        input {
+            margin-bottom: 10px;
+            display: block;
+            width: 100%;
+            font-size: 1.1em;
+        }
+
+        input[type="submit"] {
+            background-color: #00b389;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            width: auto;
+            font-size: 1.1em;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #00b389;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <a href="#" onclick="showSection('addTask')">Add Task</a>
+            <a href="#" onclick="showSection('removeTask')">Remove Task</a>
+            <a href="#" onclick="showSection('removeUser')">Remove User</a>
+            <a href="#" onclick="showSection('resetPasscode')">Reset User Passcode</a>
+            <a href="#" onclick="showSection('sessions')">Session Tracking</a>
+            <a href="#" onclick="showSection('topUsers')">Top Users</a>
+        </div>
+        <div class="main-content">
+            <h1>Admin Interface</h1>
+
+            <div class="section" id="addTask">
+                <form action="/admin/addtask" method="post">
+                    <label for="question">Question:</label>
+                    <input type="text" id="question" name="question">
+                    <label for="choice1">Choice 1:</label>
+                    <input type="text" id="choice1" name="choice1">
+                    <label for="choice2">Choice 2:</label>
+                    <input type="text" id="choice2" name="choice2">
+                    <label for="choice3">Choice 3:</label>
+                    <input type="text" id="choice3" name="choice3">
+                    <label for="answerIndex">Answer Index:</label>
+                    <input type="number" id="answerIndex" name="answerIndex">
+                    <input type="submit" value="Add Task">
+                </form>
+            </div>
+
+            <div class="section" id="removeTask">
+                <form action="/admin/removetask" method="post">
+                    <label for="id">Task ID to Remove:</label>
+                    <input type="number" id="id" name="id">
+                    <input type="submit" value="Remove Task">
+                </form>
+            </div>
+
+            <div class="section" id="removeUser">
+                <form action="/admin/removeuser" method="post">
+                    <label for="removeUsername">User to be Removed:</label>
+                    <input type="text" id="removeUsername" name="removeUsername">
+                    <input type="submit" value="Remove User">
+                </form>
+            </div>
+
+            <div class="section" id="resetPasscode">
+                <form action="/admin/resetuserpc" method="post">
+                    <label for="resetUsername">Reset Passcode of User:</label>
+                    <input type="text" id="resetUsername" name="resetUsername">
+                    <label for="newPasscode">New Passcode:</label>
+                    <input type="password" id="newPasscode" name="newPasscode">
+                    <input type="submit" value="Reset Password">
+                </form>
+            </div>
+
+            <div class="section" id="sessions">
+                <h2>Sessions</h2>
+                {{range .Sessions}}
+                    <div>Username: {{.Username}} - Token: {{.Token}} - Expires At: {{.Expiry}}</div>
+                {{else}}
+                    <div>No active sessions</div>
+                {{end}}
+            </div>
+
+            <div class="section" id="topUsers">
+                <h2>Top Users</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Username</th>
+                            <th>Score</th>
+                            <th>Mode</th>
+                            <th>Sessions</th>
+                            <th>Accuracy</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {{range .TopUsers}}
+                        <tr>
+                            <td>{{.Username}}</td>
+                            <td>{{.Score}}</td>
+                            <td>{{.Mode}}</td>
+                            <td>{{.SessionCount}}</td>
+                            <td>{{printf "%.2f" .Accuracy}}</td>
+                        </tr>
+                        {{else}}
+                        <tr>
+                            <td colspan="4">No users available</td>
+                        </tr>
+                        {{end}}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function showSection(id) {
+            // hide all sections
+            var sections = document.querySelectorAll('.section');
+            sections.forEach(function (section) {
+                section.style.display = 'none';
+            });
+
+            // show the selected section
+            document.getElementById(id).style.display = 'block';
+        }
+    </script>
+</body>
+
+</html>

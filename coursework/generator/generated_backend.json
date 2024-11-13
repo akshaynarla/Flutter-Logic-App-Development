@@ -1,0 +1,2002 @@
+[
+    {
+        "task_id": 1,
+        "question": "!(!Q || R)",
+        "choices": [
+            "(!R && Q)",
+            "(S || !P)",
+            "(!P || !R)"
+        ],
+        "correctAns": 0
+    },
+    {
+        "task_id": 2,
+        "question": "(!(R && !P) && !(!R || Q))",
+        "choices": [
+            "((S || !R) && (!P || Q))",
+            "!(!P && Q)",
+            "!(!(R || !P) || (!P || Q))"
+        ],
+        "correctAns": 2
+    },
+    {
+        "task_id": 3,
+        "question": "!(!(R && !Q) || !(!S || !Q))",
+        "choices": [
+            "!(!(R && P) || (!S && P))",
+            "(!(!R && S) && !(Q && !S))",
+            "!(Q || !R)"
+        ],
+        "correctAns": 2
+    },
+    {
+        "task_id": 4,
+        "question": "(!Q || !R)",
+        "choices": [
+            "!(Q && !R)",
+            "(S || P)",
+            "(!R || !Q)"
+        ],
+        "correctAns": 2
+    },
+    {
+        "task_id": 5,
+        "question": "!((!S && Q) || !(!R || S))",
+        "choices": [
+            "!(!(S || !R) && (!S || !Q))",
+            "(!R && P)",
+            "((!Q || S) && (S || !R))"
+        ],
+        "correctAns": 2
+    },
+    {
+        "task_id": 6,
+        "question": "!(!(!S || !R) && (R || !R))",
+        "choices": [
+            "(!(Q && R) && (Q && !P))",
+            "!(!(!Q && !R) || (S || !Q))",
+            "((S && !S) || (!S || !R))"
+        ],
+        "correctAns": 2
+    },
+    {
+        "task_id": 7,
+        "question": "!(!P && S)",
+        "choices": [
+            "(R || !R)",
+            "!(!S && !Q)",
+            "!(S && !P)"
+        ],
+        "correctAns": 2
+    },
+    {
+        "task_id": 8,
+        "question": "(!(Q || !Q) && !(Q || !S))",
+        "choices": [
+            "((R || Q) && !(!Q && Q))",
+            "((!Q && P) && (!P && !R))",
+            "!(R && !P)"
+        ],
+        "correctAns": 1
+    },
+    {
+        "task_id": 9,
+        "question": "(!(P || !Q) && (!R && !S))",
+        "choices": [
+            "((!S && S) || (R || S))",
+            "!(P && Q)",
+            "!(!(!S && Q) || (P || R))"
+        ],
+        "correctAns": 2
+    },
+    {
+        "task_id": 10,
+        "question": "(!(Q || !S) && !(Q && P))",
+        "choices": [
+            "(S && !Q)",
+            "(!(!R && !P) || (!S || !Q))",
+            "!(!(R && !Q) && !(!R || Q))"
+        ],
+        "correctAns": 0
+    },
+    {
+        "task_id": 11,
+        "question": "(Q && P)",
+        "choices": [
+            "!(S || !P)",
+            "((P && S) && (!P || !Q))",
+            "(!(!P && !S) && (Q && P))"
+        ],
+        "correctAns": 2
+    },
+    {
+        "task_id": 12,
+        "question": "!(!(R || !Q) && !(!S && S))",
+        "choices": [
+            "(S && R)",
+            "!(Q && !R)",
+            "!((!P || !Q) && !(!R && S))"
+        ],
+        "correctAns": 1
+    },
+    {
+        "task_id": 13,
+        "question": "((R && !Q) || (!P || Q))",
+        "choices": [
+            "!(!(!Q && R) && !(Q || !P))",
+            "(!(P && !Q) && !(R || Q))",
+            "(!(R || !Q) || !(!P || R))"
+        ],
+        "correctAns": 0
+    },
+    {
+        "task_id": 14,
+        "question": "!(!(!R && Q) && (Q || !Q))",
+        "choices": [
+            "!(R && S)",
+            "((!R && !Q) && !(!Q && !P))",
+            "(Q && !R)"
+        ],
+        "correctAns": 2
+    },
+    {
+        "task_id": 15,
+        "question": "((!Q || !S) || (!S || !P))",
+        "choices": [
+            "(R || !R)",
+            "!(!P || P)",
+            "!((Q && S) && (P || !Q))"
+        ],
+        "correctAns": 2
+    },
+    {
+        "task_id": 16,
+        "question": "!(!Q && R)",
+        "choices": [
+            "(!(S || P) && !(!R && P))",
+            "(P || Q)",
+            "(!(R && !Q) || !(R || S))"
+        ],
+        "correctAns": 2
+    },
+    {
+        "task_id": 17,
+        "question": "!(S || Q)",
+        "choices": [
+            "!(!(R || P) || !(Q && S))",
+            "!(!(R && S) && (!Q && !R))",
+            "(!Q && !S)"
+        ],
+        "correctAns": 2
+    },
+    {
+        "task_id": 18,
+        "question": "!((P || R) && !(!R && !P))",
+        "choices": [
+            "(!(R || Q) || !(!R && Q))",
+            "!((R || P) && (!S || S))",
+            "(S || Q)"
+        ],
+        "correctAns": 1
+    },
+    {
+        "task_id": 19,
+        "question": "!(R || !S)",
+        "choices": [
+            "(!R && S)",
+            "(R || !Q)",
+            "!(!(!S && !Q) && (!S && R))"
+        ],
+        "correctAns": 0
+    },
+    {
+        "task_id": 20,
+        "question": "!((!P && Q) || !(P && !R))",
+        "choices": [
+            "(!(!P && !S) && !(P && !R))",
+            "!(!(!Q || !P) || (!S && Q))",
+            "(P && !R)"
+        ],
+        "correctAns": 2
+    },
+    {
+        "task_id": 21,
+        "question": "!(!(!P || R) || !(!Q && R))",
+        "choices": [
+            "((Q && !R) && (Q || P))",
+            "(!P || !R)",
+            "(!Q && R)"
+        ],
+        "correctAns": 2
+    },
+    {
+        "task_id": 22,
+        "question": "((!R || R) || !(P || Q))",
+        "choices": [
+            "(!(!R && S) || !(S && !R))",
+            "(!Q || S)",
+            "!(!(!P || Q) && !(!P || !Q))"
+        ],
+        "correctAns": 2
+    },
+    {
+        "task_id": 23,
+        "question": "((!P && Q) && !(S && R))",
+        "choices": [
+            "(!P || S)",
+            "((!P && Q) && (!S || !R))",
+            "!(S || Q)"
+        ],
+        "correctAns": 1
+    },
+    {
+        "task_id": 24,
+        "question": "(S || !Q)",
+        "choices": [
+            "(!R || Q)",
+            "!(!(R && !P) || !(!P && R))",
+            "!(Q && !S)"
+        ],
+        "correctAns": 2
+    },
+    {
+        "task_id": 25,
+        "question": "(P && S)",
+        "choices": [
+            "!(!P || !S)",
+            "!((S && !Q) && (!S && !P))",
+            "!(!(Q && R) && (S || Q))"
+        ],
+        "correctAns": 0
+    },
+    {
+        "task_id": 26,
+        "question": "!(S && !R)",
+        "choices": [
+            "(!S || R)",
+            "(Q || R)",
+            "!((P && !P) && !(!R && !S))"
+        ],
+        "correctAns": 0
+    },
+    {
+        "task_id": 27,
+        "question": "!(R || P)",
+        "choices": [
+            "!((R || P) || (!S && P))",
+            "!(!P && Q)",
+            "(!R || Q)"
+        ],
+        "correctAns": 0
+    },
+    {
+        "task_id": 28,
+        "question": "(!Q || R)",
+        "choices": [
+            "(Q || !Q)",
+            "!(Q && P)",
+            "!(Q && !R)"
+        ],
+        "correctAns": 2
+    },
+    {
+        "task_id": 29,
+        "question": "!(!P && P)",
+        "choices": [
+            "(!R || !P)",
+            "(Q || !Q)",
+            "!((!R && P) || (R || !S))"
+        ],
+        "correctAns": 1
+    },
+    {
+        "task_id": 30,
+        "question": "(!R || S)",
+        "choices": [
+            "(!(!R || !Q) || !(Q || !S))",
+            "(!(!S || !P) || (!R || S))",
+            "!((!P && !R) || !(P || !P))"
+        ],
+        "correctAns": 1
+    },
+    {
+        "task_id": 31,
+        "question": "!(!Q || P)",
+        "choices": [
+            "(!P && Q)",
+            "(S && !R)",
+            "(!P || P)"
+        ],
+        "correctAns": 0
+    },
+    {
+        "task_id": 32,
+        "question": "!(!R || !S)",
+        "choices": [
+            "((R && P) && (S && !P))",
+            "(!(!Q && S) && !(R && S))",
+            "!(!S || !R)"
+        ],
+        "correctAns": 2
+    },
+    {
+        "task_id": 33,
+        "question": "!(!(R && !Q) && !(!S || P))",
+        "choices": [
+            "!((P && !R) && (!P && R))",
+            "(!Q && Q)",
+            "((P || !S) || (R && !Q))"
+        ],
+        "correctAns": 2
+    },
+    {
+        "task_id": 34,
+        "question": "(!P || !R)",
+        "choices": [
+            "(!R || !P)",
+            "(!(!Q || Q) && !(S && R))",
+            "(R && Q)"
+        ],
+        "correctAns": 0
+    },
+    {
+        "task_id": 35,
+        "question": "((!R && S) && !(!P && Q))",
+        "choices": [
+            "!(!(S && !R) || (Q && !P))",
+            "!((!S && Q) || (Q && !R))",
+            "!(P && !R)"
+        ],
+        "correctAns": 0
+    },
+    {
+        "task_id": 36,
+        "question": "!(!P && !Q)",
+        "choices": [
+            "!((!R || !Q) || !(!Q && S))",
+            "!((!Q || Q) || !(!S && P))",
+            "!(!Q && !P)"
+        ],
+        "correctAns": 2
+    },
+    {
+        "task_id": 37,
+        "question": "(!R || R)",
+        "choices": [
+            "(!R && !Q)",
+            "(!R || S)",
+            "!(P && !P)"
+        ],
+        "correctAns": 2
+    },
+    {
+        "task_id": 38,
+        "question": "(R && Q)",
+        "choices": [
+            "(S && !Q)",
+            "!(!(!P && P) || !(P && !S))",
+            "!(!R || !Q)"
+        ],
+        "correctAns": 2
+    },
+    {
+        "task_id": 39,
+        "question": "!(!(P && !Q) || (R || !S))",
+        "choices": [
+            "(!(R || !S) && !(!P || Q))",
+            "(!(!Q && R) || !(!S || P))",
+            "(!(!Q || P) && !(S && !R))"
+        ],
+        "correctAns": 0
+    },
+    {
+        "task_id": 40,
+        "question": "!(!S && !P)",
+        "choices": [
+            "(P || S)",
+            "!(!Q && P)",
+            "(!R && R)"
+        ],
+        "correctAns": 0
+    },
+    {
+        "task_id": 41,
+        "question": "!(!Q || !P)",
+        "choices": [
+            "!(R && S)",
+            "(Q && P)",
+            "(Q && R)"
+        ],
+        "correctAns": 1
+    },
+    {
+        "task_id": 42,
+        "question": "(!P && !S)",
+        "choices": [
+            "!(!(!S || !R) || (S || P))",
+            "!(!P || P)",
+            "(!(S && !R) || !(P && !S))"
+        ],
+        "correctAns": 0
+    },
+    {
+        "task_id": 43,
+        "question": "(!P && !S)",
+        "choices": [
+            "(!(!P || !S) || !(R && !S))",
+            "!(S && !Q)",
+            "(!S && !P)"
+        ],
+        "correctAns": 2
+    },
+    {
+        "task_id": 44,
+        "question": "(S || R)",
+        "choices": [
+            "!((!S && !R) && !(!Q && R))",
+            "(!(!P || !S) || (Q && !Q))",
+            "((R && Q) && (!Q || !P))"
+        ],
+        "correctAns": 0
+    },
+    {
+        "task_id": 45,
+        "question": "(P || Q)",
+        "choices": [
+            "!(!P && !Q)",
+            "!(Q && !R)",
+            "!(!(S || !S) || (!P && !S))"
+        ],
+        "correctAns": 0
+    },
+    {
+        "task_id": 46,
+        "question": "!(!(R || !S) && (Q && R))",
+        "choices": [
+            "!((!R || !Q) && !(!S || R))",
+            "(!(R || S) && (!R || !P))",
+            "!(S && !S)"
+        ],
+        "correctAns": 2
+    },
+    {
+        "task_id": 47,
+        "question": "!(!(!Q || Q) && !(S || !R))",
+        "choices": [
+            "(!(!R || !Q) || (!Q && !R))",
+            "((P || S) || (!P || !Q))",
+            "!((S || R) || (!S || !P))"
+        ],
+        "correctAns": 1
+    },
+    {
+        "task_id": 48,
+        "question": "!(!R || R)",
+        "choices": [
+            "!(Q || !S)",
+            "!(P && Q)",
+            "!(!(R || Q) || (S || !S))"
+        ],
+        "correctAns": 2
+    },
+    {
+        "task_id": 49,
+        "question": "!(!(!Q || !S) || (S && R))",
+        "choices": [
+            "(!P && !R)",
+            "(!(S && Q) && !(R && S))",
+            "!(R && !Q)"
+        ],
+        "correctAns": 1
+    },
+    {
+        "task_id": 50,
+        "question": "(!(S || !S) && (Q && !S))",
+        "choices": [
+            "(R && !R)",
+            "!(!R || Q)",
+            "((!Q || P) || !(!R && Q))"
+        ],
+        "correctAns": 0
+    },
+    {
+        "task_id": 51,
+        "question": "!(R && !R)",
+        "choices": [
+            "!(!S && Q)",
+            "!((P && !Q) && !(!P && S))",
+            "(!(!Q && P) || (R || !R))"
+        ],
+        "correctAns": 2
+    },
+    {
+        "task_id": 52,
+        "question": "(P && !R)",
+        "choices": [
+            "((!S && !Q) || !(!S && !P))",
+            "(!P && Q)",
+            "!(R || !P)"
+        ],
+        "correctAns": 2
+    },
+    {
+        "task_id": 53,
+        "question": "!(R || P)",
+        "choices": [
+            "(!S || R)",
+            "(!P && !R)",
+            "(!P && S)"
+        ],
+        "correctAns": 1
+    },
+    {
+        "task_id": 54,
+        "question": "((S && !Q) && (P && !R))",
+        "choices": [
+            "((!Q || S) && !(!P || R))",
+            "!((R || !S) || !(P && !Q))",
+            "((P && Q) || (!P && P))"
+        ],
+        "correctAns": 1
+    },
+    {
+        "task_id": 55,
+        "question": "!(!(!R && S) || !(!Q || !R))",
+        "choices": [
+            "(S || R)",
+            "((!P || Q) && (S || !R))",
+            "!(!S || R)"
+        ],
+        "correctAns": 2
+    },
+    {
+        "task_id": 56,
+        "question": "!(!(P && !Q) || (R && !P))",
+        "choices": [
+            "!((S || !Q) && (P && !S))",
+            "(!Q && P)",
+            "!((Q || !P) || !(!P && R))"
+        ],
+        "correctAns": 1
+    },
+    {
+        "task_id": 57,
+        "question": "(!(!R || Q) && !(!Q || !S))",
+        "choices": [
+            "((!S && Q) && (!R && R))",
+            "!(Q || !R)",
+            "(!(R && Q) && (!P || !S))"
+        ],
+        "correctAns": 0
+    },
+    {
+        "task_id": 58,
+        "question": "!((!S || S) && (Q || R))",
+        "choices": [
+            "(Q && R)",
+            "(!R && !Q)",
+            "(R || P)"
+        ],
+        "correctAns": 1
+    },
+    {
+        "task_id": 59,
+        "question": "(!(P && !Q) || (R || P))",
+        "choices": [
+            "(!(!R || R) || (S && !R))",
+            "(S || !S)",
+            "(R && S)"
+        ],
+        "correctAns": 1
+    },
+    {
+        "task_id": 60,
+        "question": "!(Q && S)",
+        "choices": [
+            "(!(!P && S) || (R || !S))",
+            "(R || !Q)",
+            "!((P || !P) && !(!S || !Q))"
+        ],
+        "correctAns": 2
+    },
+    {
+        "task_id": 61,
+        "question": "!(!P && S)",
+        "choices": [
+            "(!(!P && S) || !(!R || R))",
+            "!(!(!R && !Q) || (S && !S))",
+            "!(R || S)"
+        ],
+        "correctAns": 0
+    },
+    {
+        "task_id": 62,
+        "question": "!((R && !P) || (P || Q))",
+        "choices": [
+            "((!Q || R) || !(R && S))",
+            "(!S && !Q)",
+            "(!(P || R) && (!Q || P))"
+        ],
+        "correctAns": 2
+    },
+    {
+        "task_id": 63,
+        "question": "!(!P || !S)",
+        "choices": [
+            "!(P || !P)",
+            "!(!(S && P) && !(R && !R))",
+            "(R || P)"
+        ],
+        "correctAns": 1
+    },
+    {
+        "task_id": 64,
+        "question": "(!(!Q || !R) && !(!Q || Q))",
+        "choices": [
+            "((!S || !R) && (!S && S))",
+            "(!S && Q)",
+            "(S || Q)"
+        ],
+        "correctAns": 0
+    },
+    {
+        "task_id": 65,
+        "question": "(!(!S || !Q) && !(S || R))",
+        "choices": [
+            "((R && P) && !(R || !Q))",
+            "(R || !S)",
+            "(S && P)"
+        ],
+        "correctAns": 0
+    },
+    {
+        "task_id": 66,
+        "question": "!(!R && !S)",
+        "choices": [
+            "(P && !S)",
+            "!(!(S || R) && !(Q && !Q))",
+            "!(S && !P)"
+        ],
+        "correctAns": 1
+    },
+    {
+        "task_id": 67,
+        "question": "!(P || !P)",
+        "choices": [
+            "((!P || Q) || (!P || P))",
+            "!(!P || P)",
+            "((S && R) && (P || !S))"
+        ],
+        "correctAns": 1
+    },
+    {
+        "task_id": 68,
+        "question": "(!P || !Q)",
+        "choices": [
+            "(!(R || !P) || !(!R || !S))",
+            "!(!(!Q || S) || (S && !S))",
+            "!((!Q && Q) || (Q && P))"
+        ],
+        "correctAns": 2
+    },
+    {
+        "task_id": 69,
+        "question": "!(!(R || P) || !(!P || !S))",
+        "choices": [
+            "((!R && R) || !(S || P))",
+            "(!(!Q && Q) || !(Q && P))",
+            "!((S && P) || !(P || R))"
+        ],
+        "correctAns": 2
+    },
+    {
+        "task_id": 70,
+        "question": "((P || S) || (!P || Q))",
+        "choices": [
+            "(!R || R)",
+            "!(!(!R && R) || (!P || S))",
+            "(Q && !R)"
+        ],
+        "correctAns": 0
+    },
+    {
+        "task_id": 71,
+        "question": "(P || !Q)",
+        "choices": [
+            "!(Q && !P)",
+            "!(!S || R)",
+            "(!P && Q)"
+        ],
+        "correctAns": 0
+    },
+    {
+        "task_id": 72,
+        "question": "(S || Q)",
+        "choices": [
+            "!(Q || !S)",
+            "!(S && !P)",
+            "(Q || S)"
+        ],
+        "correctAns": 2
+    },
+    {
+        "task_id": 73,
+        "question": "!(!(S || !S) || (Q && S))",
+        "choices": [
+            "!(!P || Q)",
+            "!((!P || !R) && !(!S || P))",
+            "(!(Q && S) || !(!R || R))"
+        ],
+        "correctAns": 2
+    },
+    {
+        "task_id": 74,
+        "question": "!(!(R && !P) && !(!S && P))",
+        "choices": [
+            "(!(S || !Q) || (!Q && !R))",
+            "!(!(S || !Q) && !(!R || !Q))",
+            "!(!(P || R) || !(!P || !S))"
+        ],
+        "correctAns": 2
+    },
+    {
+        "task_id": 75,
+        "question": "(Q && !R)",
+        "choices": [
+            "!(!(!Q && !P) || !(!R && S))",
+            "!(!(R && S) && (R || !R))",
+            "!(!Q || R)"
+        ],
+        "correctAns": 2
+    },
+    {
+        "task_id": 76,
+        "question": "!((R || !Q) && !(R && Q))",
+        "choices": [
+            "((P && R) || !(!S && P))",
+            "(!R || S)",
+            "!((S || !Q) && !(Q && S))"
+        ],
+        "correctAns": 2
+    },
+    {
+        "task_id": 77,
+        "question": "(P && R)",
+        "choices": [
+            "!(!Q || R)",
+            "(Q || !S)",
+            "!(!R || !P)"
+        ],
+        "correctAns": 2
+    },
+    {
+        "task_id": 78,
+        "question": "(P && !P)",
+        "choices": [
+            "(!P && R)",
+            "(!R && R)",
+            "(!(S && !P) && !(R && P))"
+        ],
+        "correctAns": 1
+    },
+    {
+        "task_id": 79,
+        "question": "!((!P || !Q) || !(S && R))",
+        "choices": [
+            "(!(S || P) && (Q && S))",
+            "!(!(P && R) || !(S && Q))",
+            "((R && P) || !(P && !Q))"
+        ],
+        "correctAns": 1
+    },
+    {
+        "task_id": 80,
+        "question": "!(!(!Q && Q) || (P || !Q))",
+        "choices": [
+            "(!Q && Q)",
+            "!((!S || R) || !(S || !P))",
+            "!(R && !Q)"
+        ],
+        "correctAns": 0
+    },
+    {
+        "task_id": 81,
+        "question": "((!P || !S) && !(P || !R))",
+        "choices": [
+            "!((!R && P) || !(!P && R))",
+            "(!S && R)",
+            "!(!(!P || !S) && (S && !R))"
+        ],
+        "correctAns": 0
+    },
+    {
+        "task_id": 82,
+        "question": "(!(R && !Q) && (!S || S))",
+        "choices": [
+            "(!(R && !Q) || (Q && S))",
+            "(R || Q)",
+            "!(!Q && P)"
+        ],
+        "correctAns": 0
+    },
+    {
+        "task_id": 83,
+        "question": "(!(R || !R) || (R && !P))",
+        "choices": [
+            "(!S || Q)",
+            "!(P || !R)",
+            "((S || !P) && !(!Q && Q))"
+        ],
+        "correctAns": 1
+    },
+    {
+        "task_id": 84,
+        "question": "!(R || !R)",
+        "choices": [
+            "((P && !P) && (Q || R))",
+            "!(!(P && Q) || !(R || !R))",
+            "(!(R && !Q) || !(S || !R))"
+        ],
+        "correctAns": 0
+    },
+    {
+        "task_id": 85,
+        "question": "(S && !Q)",
+        "choices": [
+            "!((R || !R) && (!S || Q))",
+            "(P && !P)",
+            "!(!(!S && Q) || !(S || !P))"
+        ],
+        "correctAns": 0
+    },
+    {
+        "task_id": 86,
+        "question": "!(!(R || !R) || !(P && !Q))",
+        "choices": [
+            "!(!(P || !P) || (Q || S))",
+            "((!R && P) && (!S && P))",
+            "(P && !Q)"
+        ],
+        "correctAns": 2
+    },
+    {
+        "task_id": 87,
+        "question": "!(!(Q && !Q) || !(R || P))",
+        "choices": [
+            "(!Q && !P)",
+            "!(!P || P)",
+            "!(!Q && P)"
+        ],
+        "correctAns": 1
+    },
+    {
+        "task_id": 88,
+        "question": "(P && S)",
+        "choices": [
+            "(S && P)",
+            "!(!S || S)",
+            "(!R && Q)"
+        ],
+        "correctAns": 0
+    },
+    {
+        "task_id": 89,
+        "question": "((!R || P) && !(P && !S))",
+        "choices": [
+            "(R || !S)",
+            "(!Q && R)",
+            "!(!(P || !R) || (!S && P))"
+        ],
+        "correctAns": 2
+    },
+    {
+        "task_id": 90,
+        "question": "((!R || Q) || (Q && !Q))",
+        "choices": [
+            "(Q || !R)",
+            "!(!(!Q || !S) || !(!R && S))",
+            "(P || !R)"
+        ],
+        "correctAns": 0
+    },
+    {
+        "task_id": 91,
+        "question": "!(P || S)",
+        "choices": [
+            "(!S && !P)",
+            "!(!P && R)",
+            "!((R || !R) && (!R && !S))"
+        ],
+        "correctAns": 0
+    },
+    {
+        "task_id": 92,
+        "question": "!(!Q || !R)",
+        "choices": [
+            "!(P || R)",
+            "!((!Q || !R) || (!R && !S))",
+            "!(R && !Q)"
+        ],
+        "correctAns": 1
+    },
+    {
+        "task_id": 93,
+        "question": "!((!Q || S) || !(P || Q))",
+        "choices": [
+            "!(Q && !S)",
+            "(!S && Q)",
+            "!(!(!P && !S) || (!P || S))"
+        ],
+        "correctAns": 1
+    },
+    {
+        "task_id": 94,
+        "question": "(!P || P)",
+        "choices": [
+            "((!S || !R) && (!P && !R))",
+            "!(S && !S)",
+            "(S && !S)"
+        ],
+        "correctAns": 1
+    },
+    {
+        "task_id": 95,
+        "question": "!(!(R || !P) || !(!P && !Q))",
+        "choices": [
+            "(!P && Q)",
+            "!((P || Q) && !(!S && R))",
+            "!(!(S || !Q) || !(!Q && !P))"
+        ],
+        "correctAns": 2
+    },
+    {
+        "task_id": 96,
+        "question": "(!R && !Q)",
+        "choices": [
+            "!(!P && P)",
+            "(!Q && !R)",
+            "(!Q || P)"
+        ],
+        "correctAns": 1
+    },
+    {
+        "task_id": 97,
+        "question": "((R && Q) || (P || S))",
+        "choices": [
+            "!(Q && !S)",
+            "!(!(R && Q) && !(P || S))",
+            "((!S || !P) || !(!P && !R))"
+        ],
+        "correctAns": 1
+    },
+    {
+        "task_id": 98,
+        "question": "!(!Q && S)",
+        "choices": [
+            "!(!(R && !R) || (!Q && !R))",
+            "!((!Q && !S) && (S && R))",
+            "((!S && S) || (Q || !S))"
+        ],
+        "correctAns": 2
+    },
+    {
+        "task_id": 99,
+        "question": "!((!P || P) || !(!R && P))",
+        "choices": [
+            "((!Q || P) && !(R || !P))",
+            "(!(!S || !R) && !(!R || S))",
+            "!((!S && Q) && !(!P || R))"
+        ],
+        "correctAns": 1
+    },
+    {
+        "task_id": 100,
+        "question": "!((R && S) || (R && !Q))",
+        "choices": [
+            "!(!(S && !Q) && !(!S && !Q))",
+            "((Q || !R) && (!S || !R))",
+            "((S && Q) && (P && Q))"
+        ],
+        "correctAns": 1
+    },
+    {
+        "task_id": 101,
+        "question": "(!(R || !R) && (Q || !Q))",
+        "choices": [
+            "!(!(!R && P) && (!R && R))",
+            "!(!(!P && P) || !(!Q || Q))",
+            "(!(!P || !R) && (!Q && S))"
+        ],
+        "correctAns": 1
+    },
+    {
+        "task_id": 102,
+        "question": "!(R || !Q)",
+        "choices": [
+            "(!R || P)",
+            "!(!(!P || S) || (S || !P))",
+            "(Q && !R)"
+        ],
+        "correctAns": 2
+    },
+    {
+        "task_id": 103,
+        "question": "!(!(S || Q) || (!P && !S))",
+        "choices": [
+            "!((!S && !P) || (!S && !Q))",
+            "!(P && Q)",
+            "((R && S) && (R || !S))"
+        ],
+        "correctAns": 0
+    },
+    {
+        "task_id": 104,
+        "question": "!((S && !Q) || (S || !R))",
+        "choices": [
+            "(!(!R && Q) && !(!Q || !R))",
+            "(!(S && R) || (!R || R))",
+            "!(S || !R)"
+        ],
+        "correctAns": 2
+    },
+    {
+        "task_id": 105,
+        "question": "((S && !P) || !(S || !Q))",
+        "choices": [
+            "((S && !P) || (!S && Q))",
+            "(!(!P || !R) && (!R && P))",
+            "((!Q && Q) || (R && !S))"
+        ],
+        "correctAns": 0
+    },
+    {
+        "task_id": 106,
+        "question": "!((!P && S) || !(!S && !R))",
+        "choices": [
+            "!(R || S)",
+            "((!S || !P) && !(!S && P))",
+            "!(!(S || R) || !(!S || P))"
+        ],
+        "correctAns": 0
+    },
+    {
+        "task_id": 107,
+        "question": "((!P && Q) || !(Q && !Q))",
+        "choices": [
+            "((R && S) && !(!S && !R))",
+            "!(S || !Q)",
+            "!(!(!Q || Q) && (!Q || P))"
+        ],
+        "correctAns": 2
+    },
+    {
+        "task_id": 108,
+        "question": "(!(Q && !S) || !(!R || P))",
+        "choices": [
+            "!(Q && P)",
+            "!(!(!Q || S) && !(!P && R))",
+            "(!Q && P)"
+        ],
+        "correctAns": 1
+    },
+    {
+        "task_id": 109,
+        "question": "((!P || S) && !(!P && R))",
+        "choices": [
+            "!((S || P) || (!R || !Q))",
+            "((Q || R) && (!R && R))",
+            "(!(P && !S) && (!R || P))"
+        ],
+        "correctAns": 2
+    },
+    {
+        "task_id": 110,
+        "question": "(!(P && !P) || !(!Q || R))",
+        "choices": [
+            "!(!S && S)",
+            "!(R && !S)",
+            "!(!(!P && !S) && (Q && P))"
+        ],
+        "correctAns": 0
+    },
+    {
+        "task_id": 111,
+        "question": "((S || R) || (!P && Q))",
+        "choices": [
+            "!((P || !P) && !(!P || !Q))",
+            "!(Q && P)",
+            "!((!S && !R) && (P || !Q))"
+        ],
+        "correctAns": 2
+    },
+    {
+        "task_id": 112,
+        "question": "!(!Q && R)",
+        "choices": [
+            "(!R || Q)",
+            "(!(Q && S) || !(!P || !Q))",
+            "(!(!S && R) || (Q && !P))"
+        ],
+        "correctAns": 0
+    },
+    {
+        "task_id": 113,
+        "question": "!(S || !P)",
+        "choices": [
+            "!(!(!S || !P) || !(R || S))",
+            "(!(!P || S) && !(!P && Q))",
+            "!(!P && !R)"
+        ],
+        "correctAns": 1
+    },
+    {
+        "task_id": 114,
+        "question": "(!R || !Q)",
+        "choices": [
+            "!(!R || Q)",
+            "!((R || P) || (!R && !P))",
+            "((!R || !Q) || !(R || !R))"
+        ],
+        "correctAns": 2
+    },
+    {
+        "task_id": 115,
+        "question": "!((!S || !P) || !(Q && !P))",
+        "choices": [
+            "((S || Q) || !(!S && !P))",
+            "(S && Q)",
+            "(R && !R)"
+        ],
+        "correctAns": 2
+    },
+    {
+        "task_id": 116,
+        "question": "(!R && Q)",
+        "choices": [
+            "!(!Q || R)",
+            "!(!(Q && R) || (S && !S))",
+            "(P && Q)"
+        ],
+        "correctAns": 0
+    },
+    {
+        "task_id": 117,
+        "question": "!(P || S)",
+        "choices": [
+            "(S && !Q)",
+            "(!P && !S)",
+            "((!P && !R) && !(Q || !R))"
+        ],
+        "correctAns": 1
+    },
+    {
+        "task_id": 118,
+        "question": "(!Q && !P)",
+        "choices": [
+            "!((Q || P) || !(!P || !R))",
+            "(!(!S || P) || (!R || S))",
+            "!(!(!S || !Q) || !(!Q || S))"
+        ],
+        "correctAns": 0
+    },
+    {
+        "task_id": 119,
+        "question": "(R && !S)",
+        "choices": [
+            "!(S || !R)",
+            "!((!Q && !S) || (R || !R))",
+            "(!S && !P)"
+        ],
+        "correctAns": 0
+    },
+    {
+        "task_id": 120,
+        "question": "!((R && S) || (!Q || P))",
+        "choices": [
+            "!(!(!S || S) || (R && !S))",
+            "(!(R || !S) && !(!Q || P))",
+            "!(!(!P && Q) || !(!R || !S))"
+        ],
+        "correctAns": 2
+    },
+    {
+        "task_id": 121,
+        "question": "!(!(P || !P) || (!P || S))",
+        "choices": [
+            "!((!P && Q) && (S || !Q))",
+            "!(!P || S)",
+            "(!(!S || R) && !(!Q || !S))"
+        ],
+        "correctAns": 1
+    },
+    {
+        "task_id": 122,
+        "question": "!(S && !Q)",
+        "choices": [
+            "((Q || !S) || (!S && !R))",
+            "(P && Q)",
+            "!((!S || Q) && !(!S || !Q))"
+        ],
+        "correctAns": 0
+    },
+    {
+        "task_id": 123,
+        "question": "!(!P && Q)",
+        "choices": [
+            "(!Q || P)",
+            "!(!S && R)",
+            "(!P || !R)"
+        ],
+        "correctAns": 0
+    },
+    {
+        "task_id": 124,
+        "question": "!(!R || S)",
+        "choices": [
+            "(Q && !Q)",
+            "!(P && !S)",
+            "!(!(R || !R) || (S || !R))"
+        ],
+        "correctAns": 2
+    },
+    {
+        "task_id": 125,
+        "question": "(!(!S && !Q) && (S && !Q))",
+        "choices": [
+            "!((!P || P) && !(S && !Q))",
+            "(P && Q)",
+            "(!R || P)"
+        ],
+        "correctAns": 0
+    },
+    {
+        "task_id": 126,
+        "question": "(!S && R)",
+        "choices": [
+            "!(S || !P)",
+            "!(S || !R)",
+            "(!P && !Q)"
+        ],
+        "correctAns": 1
+    },
+    {
+        "task_id": 127,
+        "question": "!(!P && !R)",
+        "choices": [
+            "(!S && R)",
+            "!((S && P) && !(!R || P))",
+            "(R || P)"
+        ],
+        "correctAns": 2
+    },
+    {
+        "task_id": 128,
+        "question": "(S && !R)",
+        "choices": [
+            "(!(!P && !S) || !(!R && !Q))",
+            "!(S && !S)",
+            "!(R || !S)"
+        ],
+        "correctAns": 2
+    },
+    {
+        "task_id": 129,
+        "question": "!((!Q || !S) || (P || S))",
+        "choices": [
+            "((!P && Q) || !(P || !Q))",
+            "((Q && P) || (!Q || R))",
+            "!(Q || !Q)"
+        ],
+        "correctAns": 2
+    },
+    {
+        "task_id": 130,
+        "question": "(!(P && R) || (P && !P))",
+        "choices": [
+            "(!R || !P)",
+            "!((R || !Q) && !(!P && !R))",
+            "!((P || !P) || (S || Q))"
+        ],
+        "correctAns": 0
+    },
+    {
+        "task_id": 131,
+        "question": "!(!R || !P)",
+        "choices": [
+            "!((R || S) || !(S || P))",
+            "((R && P) && !(Q && !P))",
+            "!(!Q || !S)"
+        ],
+        "correctAns": 1
+    },
+    {
+        "task_id": 132,
+        "question": "((!R && !Q) || !(Q && !P))",
+        "choices": [
+            "!((Q || !Q) || (P || R))",
+            "(P || !Q)",
+            "!((P || !P) || (Q && P))"
+        ],
+        "correctAns": 1
+    },
+    {
+        "task_id": 133,
+        "question": "(!R && !Q)",
+        "choices": [
+            "(!Q && !R)",
+            "(!(!R || !S) || !(!Q || !P))",
+            "!(!R || !S)"
+        ],
+        "correctAns": 0
+    },
+    {
+        "task_id": 134,
+        "question": "!((!Q || !P) && !(R || P))",
+        "choices": [
+            "((!P && R) && !(Q && S))",
+            "(!(!R && Q) && (!S || P))",
+            "!(!R && !P)"
+        ],
+        "correctAns": 2
+    },
+    {
+        "task_id": 135,
+        "question": "!(!(Q || P) || !(S || !P))",
+        "choices": [
+            "(!P || !S)",
+            "!((!P || !S) && (P || !Q))",
+            "(!Q || P)"
+        ],
+        "correctAns": 1
+    },
+    {
+        "task_id": 136,
+        "question": "(!Q || P)",
+        "choices": [
+            "(S || !R)",
+            "!((R && !Q) || !(P || R))",
+            "((P && !P) || !(!P && Q))"
+        ],
+        "correctAns": 2
+    },
+    {
+        "task_id": 137,
+        "question": "(!(!S && !R) || (R && !R))",
+        "choices": [
+            "!((Q && R) || (Q && !S))",
+            "!((R || !S) && !(!Q && !P))",
+            "!(!R && !S)"
+        ],
+        "correctAns": 2
+    },
+    {
+        "task_id": 138,
+        "question": "((Q || R) || (!P || S))",
+        "choices": [
+            "(!(!S && P) || !(!Q && !R))",
+            "!(!S && !R)",
+            "(!(S || !S) && (!R || !S))"
+        ],
+        "correctAns": 0
+    },
+    {
+        "task_id": 139,
+        "question": "(!Q || S)",
+        "choices": [
+            "(!(!Q && !R) && !(!P || S))",
+            "!(!(R || P) && !(!S || R))",
+            "(S || !Q)"
+        ],
+        "correctAns": 2
+    },
+    {
+        "task_id": 140,
+        "question": "!((!Q && !P) && !(!Q || R))",
+        "choices": [
+            "((P || !Q) || (P || !S))",
+            "!((Q && !Q) && (S && R))",
+            "(Q && P)"
+        ],
+        "correctAns": 1
+    },
+    {
+        "task_id": 141,
+        "question": "!((!S || !Q) || (P || !R))",
+        "choices": [
+            "(Q || R)",
+            "((R && S) && (!P && Q))",
+            "(!P || S)"
+        ],
+        "correctAns": 1
+    },
+    {
+        "task_id": 142,
+        "question": "!(!(S || P) && !(Q || !S))",
+        "choices": [
+            "(S || !S)",
+            "!(!R || !Q)",
+            "(P || S)"
+        ],
+        "correctAns": 0
+    },
+    {
+        "task_id": 143,
+        "question": "!(!Q || !R)",
+        "choices": [
+            "!(!P || R)",
+            "(Q && R)",
+            "!(R || !Q)"
+        ],
+        "correctAns": 1
+    },
+    {
+        "task_id": 144,
+        "question": "!(S && !R)",
+        "choices": [
+            "(!S || R)",
+            "!(Q || !Q)",
+            "((Q || !S) && !(!R || R))"
+        ],
+        "correctAns": 0
+    },
+    {
+        "task_id": 145,
+        "question": "(S || Q)",
+        "choices": [
+            "!(!S && !Q)",
+            "!(!(!Q || R) && (Q || P))",
+            "!(!(Q || R) && (R || !R))"
+        ],
+        "correctAns": 0
+    },
+    {
+        "task_id": 146,
+        "question": "!(R && !R)",
+        "choices": [
+            "!(!(S || !R) || !(!S || R))",
+            "((!P && S) && (P || !P))",
+            "((Q || P) || (!Q || Q))"
+        ],
+        "correctAns": 2
+    },
+    {
+        "task_id": 147,
+        "question": "((!R && R) && (Q || P))",
+        "choices": [
+            "!(!(P && !R) || (!S && Q))",
+            "(!P && !R)",
+            "(!(!R || P) && (R && !R))"
+        ],
+        "correctAns": 2
+    },
+    {
+        "task_id": 148,
+        "question": "!(!P && !S)",
+        "choices": [
+            "!(R || !S)",
+            "((P || S) && !(S && !S))",
+            "((Q && !P) && (!R || !S))"
+        ],
+        "correctAns": 1
+    },
+    {
+        "task_id": 149,
+        "question": "(!(Q && !S) && (Q && !P))",
+        "choices": [
+            "!(!R || S)",
+            "!((!S || P) || !(Q && S))",
+            "!(!(R && !P) && (!R || !Q))"
+        ],
+        "correctAns": 1
+    },
+    {
+        "task_id": 150,
+        "question": "(Q && P)",
+        "choices": [
+            "(P && Q)",
+            "!(!S || Q)",
+            "!(!Q || P)"
+        ],
+        "correctAns": 0
+    },
+    {
+        "task_id": 151,
+        "question": "!((!S && !P) && !(!Q && !R))",
+        "choices": [
+            "!(P || !P)",
+            "!(!(S || P) && (R || Q))",
+            "(!(Q || !Q) || (!R || Q))"
+        ],
+        "correctAns": 1
+    },
+    {
+        "task_id": 152,
+        "question": "!(!R && !S)",
+        "choices": [
+            "!(!(!P && P) && !(!Q && !P))",
+            "!(Q || P)",
+            "!((!R || !P) && (!R && !S))"
+        ],
+        "correctAns": 2
+    },
+    {
+        "task_id": 153,
+        "question": "(!(Q && P) || !(!R || !P))",
+        "choices": [
+            "!((P && !R) && !(!Q || !P))",
+            "!((Q && R) && !(!P || !S))",
+            "!(!P && R)"
+        ],
+        "correctAns": 0
+    },
+    {
+        "task_id": 154,
+        "question": "(!Q && Q)",
+        "choices": [
+            "!((S || R) || (!R && !S))",
+            "(S || P)",
+            "!(!(R || !R) || !(!S && Q))"
+        ],
+        "correctAns": 0
+    },
+    {
+        "task_id": 155,
+        "question": "(!(!S || Q) && !(!Q || R))",
+        "choices": [
+            "(P || !R)",
+            "(!(Q && R) && !(!Q || Q))",
+            "(!(S && R) || !(!R && P))"
+        ],
+        "correctAns": 1
+    },
+    {
+        "task_id": 156,
+        "question": "(S || !R)",
+        "choices": [
+            "!(!(!P || S) && !(Q && P))",
+            "!(R && !S)",
+            "!(!(!P && S) || (P || !R))"
+        ],
+        "correctAns": 1
+    },
+    {
+        "task_id": 157,
+        "question": "((!R && Q) && !(S || R))",
+        "choices": [
+            "(!P && !R)",
+            "((!S || R) && (Q && !R))",
+            "(!Q || !S)"
+        ],
+        "correctAns": 1
+    },
+    {
+        "task_id": 158,
+        "question": "!(R || !Q)",
+        "choices": [
+            "(!R && Q)",
+            "((S || Q) || !(P || S))",
+            "((!R || !Q) || (!Q && S))"
+        ],
+        "correctAns": 0
+    },
+    {
+        "task_id": 159,
+        "question": "((!Q || R) || !(!R && Q))",
+        "choices": [
+            "(Q || S)",
+            "((!P || S) && !(!P || !Q))",
+            "(!Q || R)"
+        ],
+        "correctAns": 2
+    },
+    {
+        "task_id": 160,
+        "question": "!(R || S)",
+        "choices": [
+            "!(!(!Q || !S) || !(!Q || P))",
+            "(!S && !R)",
+            "(R && !R)"
+        ],
+        "correctAns": 1
+    },
+    {
+        "task_id": 161,
+        "question": "(!(S && R) && !(!S && !R))",
+        "choices": [
+            "!(!(!R || !S) || (P || !Q))",
+            "(P && !Q)",
+            "((S || R) && !(R && S))"
+        ],
+        "correctAns": 2
+    },
+    {
+        "task_id": 162,
+        "question": "(P || !P)",
+        "choices": [
+            "!(!Q || Q)",
+            "(!(Q || !Q) && (P || !S))",
+            "(S || !S)"
+        ],
+        "correctAns": 2
+    },
+    {
+        "task_id": 163,
+        "question": "(!(!S && R) || !(P && !R))",
+        "choices": [
+            "!(!(!Q || R) && !(!S && !P))",
+            "!(!Q && P)",
+            "((!S || S) || !(!Q && P))"
+        ],
+        "correctAns": 2
+    },
+    {
+        "task_id": 164,
+        "question": "!(!(P && !P) || (!S && S))",
+        "choices": [
+            "!(!Q || Q)",
+            "!(!(Q || !P) && !(!P || P))",
+            "!(Q || S)"
+        ],
+        "correctAns": 0
+    },
+    {
+        "task_id": 165,
+        "question": "!((!Q && !P) || (Q || S))",
+        "choices": [
+            "(!P && !S)",
+            "!(!(!Q || !P) || !(!S && P))",
+            "(!(!R || !S) && (S && !P))"
+        ],
+        "correctAns": 1
+    },
+    {
+        "task_id": 166,
+        "question": "(!S || !P)",
+        "choices": [
+            "!(P && !R)",
+            "!(P && S)",
+            "(!(R || !R) || !(P && !P))"
+        ],
+        "correctAns": 1
+    },
+    {
+        "task_id": 167,
+        "question": "!(S && !R)",
+        "choices": [
+            "!(!R && S)",
+            "(S && !P)",
+            "(!S && P)"
+        ],
+        "correctAns": 0
+    },
+    {
+        "task_id": 168,
+        "question": "!(!(!R && Q) && !(Q && R))",
+        "choices": [
+            "(S || !Q)",
+            "(!(!Q && P) && (Q || P))",
+            "!(Q || P)"
+        ],
+        "correctAns": 1
+    },
+    {
+        "task_id": 169,
+        "question": "!(R && !S)",
+        "choices": [
+            "!(!(R || P) && (Q && S))",
+            "(!(P && Q) && (!P || !R))",
+            "!(!S && R)"
+        ],
+        "correctAns": 2
+    },
+    {
+        "task_id": 170,
+        "question": "!(Q || !S)",
+        "choices": [
+            "!(!P || R)",
+            "!(!S || Q)",
+            "(!S && S)"
+        ],
+        "correctAns": 1
+    },
+    {
+        "task_id": 171,
+        "question": "!((S && P) || (P || Q))",
+        "choices": [
+            "!(R || P)",
+            "(!(Q || P) && !(!Q && P))",
+            "!(!(P && !P) || !(!S || R))"
+        ],
+        "correctAns": 1
+    },
+    {
+        "task_id": 172,
+        "question": "!(S || !R)",
+        "choices": [
+            "!(!(!S || S) || !(!R || R))",
+            "!(Q && !Q)",
+            "((R && !S) || (!S && S))"
+        ],
+        "correctAns": 2
+    },
+    {
+        "task_id": 173,
+        "question": "!(!Q || P)",
+        "choices": [
+            "(!P && Q)",
+            "(!(!S && P) || !(Q || !S))",
+            "!(!Q || !R)"
+        ],
+        "correctAns": 0
+    },
+    {
+        "task_id": 174,
+        "question": "!(!(!Q || S) && (S && P))",
+        "choices": [
+            "!((R || S) && (!Q && Q))",
+            "!(Q || !S)",
+            "(P && !S)"
+        ],
+        "correctAns": 0
+    },
+    {
+        "task_id": 175,
+        "question": "!(S || R)",
+        "choices": [
+            "!((P && R) || !(!S && !P))",
+            "!(!(!S && !R) || !(!P || P))",
+            "((!P && !S) || (S || R))"
+        ],
+        "correctAns": 1
+    },
+    {
+        "task_id": 176,
+        "question": "((P && R) || !(R && P))",
+        "choices": [
+            "((!R || R) || !(!Q && !S))",
+            "!((!R && R) || !(!Q || R))",
+            "(!S || Q)"
+        ],
+        "correctAns": 0
+    },
+    {
+        "task_id": 177,
+        "question": "(!Q || !P)",
+        "choices": [
+            "((!S || !R) && (S && !S))",
+            "(!P || !Q)",
+            "!(S && R)"
+        ],
+        "correctAns": 1
+    },
+    {
+        "task_id": 178,
+        "question": "(!(!R || !Q) || !(!S && S))",
+        "choices": [
+            "(!S && !Q)",
+            "((!S && S) || (P || !P))",
+            "!(!(R && P) || !(!Q && !S))"
+        ],
+        "correctAns": 1
+    },
+    {
+        "task_id": 179,
+        "question": "((!R || R) && (S || Q))",
+        "choices": [
+            "(S || Q)",
+            "!(!(Q || !R) || !(P || !S))",
+            "((!S || !Q) || (!Q || S))"
+        ],
+        "correctAns": 0
+    },
+    {
+        "task_id": 180,
+        "question": "(!R || !Q)",
+        "choices": [
+            "!(!Q && !P)",
+            "((!P && !S) && (!Q || Q))",
+            "!(Q && R)"
+        ],
+        "correctAns": 2
+    },
+    {
+        "task_id": 181,
+        "question": "!(!R || P)",
+        "choices": [
+            "!(P || !R)",
+            "!(!(P || !S) && !(!P && P))",
+            "!((!Q && P) && !(S && !R))"
+        ],
+        "correctAns": 0
+    },
+    {
+        "task_id": 182,
+        "question": "((P && !S) || !(S && !P))",
+        "choices": [
+            "!(!P && S)",
+            "(!S || Q)",
+            "(Q && R)"
+        ],
+        "correctAns": 0
+    },
+    {
+        "task_id": 183,
+        "question": "!(!S && Q)",
+        "choices": [
+            "!((!R || P) && (Q && !S))",
+            "(!(S || !Q) && (Q || !S))",
+            "!(!(!Q || S) && !(!Q && R))"
+        ],
+        "correctAns": 2
+    },
+    {
+        "task_id": 184,
+        "question": "(S && !R)",
+        "choices": [
+            "!(R || !S)",
+            "!(S && Q)",
+            "!((!Q && !P) || !(Q && R))"
+        ],
+        "correctAns": 0
+    },
+    {
+        "task_id": 185,
+        "question": "!(P && !R)",
+        "choices": [
+            "!(!R && P)",
+            "!(P || S)",
+            "!(P && R)"
+        ],
+        "correctAns": 0
+    },
+    {
+        "task_id": 186,
+        "question": "!(!(!Q || Q) && !(!R || P))",
+        "choices": [
+            "!(!(!S || R) || (!Q && S))",
+            "(R && !P)",
+            "(!(!S && S) || !(R || !Q))"
+        ],
+        "correctAns": 2
+    },
+    {
+        "task_id": 187,
+        "question": "((!P && S) || !(Q && P))",
+        "choices": [
+            "!((P || Q) || !(!P && P))",
+            "(!Q || !P)",
+            "(!P && !Q)"
+        ],
+        "correctAns": 1
+    },
+    {
+        "task_id": 188,
+        "question": "!(!(Q || !R) || (!R && !Q))",
+        "choices": [
+            "!(!P || S)",
+            "!(!R && P)",
+            "((!P && Q) || (Q && P))"
+        ],
+        "correctAns": 2
+    },
+    {
+        "task_id": 189,
+        "question": "!((!P || !R) && !(R && !R))",
+        "choices": [
+            "!(!(!S && !R) || !(!P || !Q))",
+            "!(!(P && R) || (P && !P))",
+            "!(!(R && !P) || (Q && !S))"
+        ],
+        "correctAns": 1
+    },
+    {
+        "task_id": 190,
+        "question": "!(S || !Q)",
+        "choices": [
+            "(P || Q)",
+            "(!S && Q)",
+            "!((Q && !R) && (P && R))"
+        ],
+        "correctAns": 1
+    },
+    {
+        "task_id": 191,
+        "question": "!(P || !P)",
+        "choices": [
+            "!((!P || !R) || (!S || !P))",
+            "!(!(Q && !Q) || !(!R && !S))",
+            "!(!P || !R)"
+        ],
+        "correctAns": 1
+    },
+    {
+        "task_id": 192,
+        "question": "!(!S || S)",
+        "choices": [
+            "!((S && !R) || !(!Q || Q))",
+            "!(R && !S)",
+            "((Q && !S) && !(P || Q))"
+        ],
+        "correctAns": 2
+    },
+    {
+        "task_id": 193,
+        "question": "!(!(!P && Q) || !(!R && S))",
+        "choices": [
+            "!(!(Q && !P) || !(P && S))",
+            "!(!(S && !Q) && !(S && !R))",
+            "(!(!Q || P) && (!R && S))"
+        ],
+        "correctAns": 2
+    },
+    {
+        "task_id": 194,
+        "question": "(!(!Q || !R) || !(!P || R))",
+        "choices": [
+            "!(!(P && S) && (R || S))",
+            "!((R && P) || !(!Q && Q))",
+            "!(!(Q && R) && !(!R && P))"
+        ],
+        "correctAns": 2
+    },
+    {
+        "task_id": 195,
+        "question": "(!Q || !R)",
+        "choices": [
+            "!(Q && R)",
+            "(!(R && S) || !(!R || !P))",
+            "!(R || P)"
+        ],
+        "correctAns": 0
+    },
+    {
+        "task_id": 196,
+        "question": "!(Q && !P)",
+        "choices": [
+            "(!(Q || !S) || (!R || Q))",
+            "!((P && !Q) || (!P || !R))",
+            "!(!P && Q)"
+        ],
+        "correctAns": 2
+    },
+    {
+        "task_id": 197,
+        "question": "((!P && P) && (!S || S))",
+        "choices": [
+            "!(!(Q && !R) || (!R || !S))",
+            "!(R && P)",
+            "(!S && R)"
+        ],
+        "correctAns": 0
+    },
+    {
+        "task_id": 198,
+        "question": "!((S && Q) && !(P && !S))",
+        "choices": [
+            "(!S || !P)",
+            "(S && R)",
+            "!(Q && S)"
+        ],
+        "correctAns": 2
+    },
+    {
+        "task_id": 199,
+        "question": "!(R && S)",
+        "choices": [
+            "(!R || !S)",
+            "((Q && R) || (P && R))",
+            "(!P && !S)"
+        ],
+        "correctAns": 0
+    },
+    {
+        "task_id": 200,
+        "question": "!(!(!R && !S) || !(P && !P))",
+        "choices": [
+            "((!P || Q) && (R && !R))",
+            "(!(!Q || !P) && !(!R && Q))",
+            "(!S || Q)"
+        ],
+        "correctAns": 0
+    }
+]

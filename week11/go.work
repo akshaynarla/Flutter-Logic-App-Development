@@ -1,0 +1,26 @@
+go 1.21.5
+
+use (
+	./arrays
+	./basics
+	./close_ex
+	./exercise1
+	./exercise2
+	./exercise3
+	./exercise4
+	./exercise5
+	./exercise6
+	./exercise7
+	./flow
+	./images_ex
+	./interfaces_ex
+	./methods_ex
+	./mutex_ex
+	./pointers
+	./range_ex
+	./readers_ex
+	./routines_ex
+	./slice_ex
+	./stringers_ex
+	./welcome
+)

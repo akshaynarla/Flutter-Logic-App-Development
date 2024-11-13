@@ -1,0 +1,33 @@
+name: dicey
+description: A new Flutter project on rolling a pair of dice.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 0.0.1+1
+
+environment:
+  sdk: ^3.1.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  provider: ^6.0.0
+  riverpod: ^2.4.6
+  flutter_riverpod: ^2.4.6
+  riverpod_annotation: ^2.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+  build_runner:
+  custom_lint:
+  riverpod_generator: ^2.3.6
+  riverpod_lint: ^2.3.4
+
+flutter:
+  uses-material-design: true
+  assets:
+  - assets/images/
