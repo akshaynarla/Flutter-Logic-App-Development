@@ -1,6 +1,6 @@
 # Logic App Development
 
-- This repository contains the implementation and weekly tasks of a coursework "Logic App Development".
+- This repository contains the implementation and weekly tasks of a lab coursework "Logic App Development" from the University of Stuttgart (Universität Stuttgart).
 - This module provides the necessary scripts for running the various tasks. 
 - Task description is available within each folder.
 - Readme's are available within each tasks.
